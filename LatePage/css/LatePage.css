@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.Work_tit{ width: 1000px; margin: 0 auto 0 auto; height: 73px; display: block;}
+.Work_tit h3{ color:#707070; font-size: 24px; font-family:"微软雅黑"; float: left; height: 73px; line-height: 73px;}
+.Work_tit span{ width: 47px; height: 73px; display: block; float: left; background: url(../images/dot.png) no-repeat center center; margin-left: 220px; cursor:pointer;}
+.Video{ width:1000px; margin: 0 auto 0 auto; height: 563px; background: url(../images/video.png) no-repeat; display: block;}
+.Video video{ width: 1000px; height: 563px;}
+
+.introduce{ width: 1000px; margin: 0 auto 0 auto; padding-top: 25px; padding-bottom: 25px; overflow: hidden; display: block;}
+.introduce h3{ height: 24px; line-height: 24px; color: #2d2c2a; font-size: 18px;font-family:"微软雅黑"; margin-bottom: 10px;}
+.introduce p{ padding-left: 28px; line-height: 22px; clear: both;}
+.introduce p b{ font-weight: bold; float: left; font-size: 16px; color:#54524f;font-family:"微软雅黑";}
+.introduce p span{ color:#54524f; font-size: 16px; float: left;font-family:"微软雅黑";}

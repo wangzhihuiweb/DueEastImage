@@ -1,0 +1,132 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+header>a {
+	width: 2.85rem;
+	height: 0.24rem;
+	background: url(../images/production.png) no-repeat;
+	background-size: 100% 100%;
+}
+body {
+	background: url(../images/SHOOTbg.png);
+	background-size: 100% auto;
+    overflow-x:visible;
+
+}
+.LatePage {
+	width: 7.5rem;
+	height: 10.06rem;
+	overflow: hidden;
+	margin-top: 0.86rem;
+	background: url(../images/LatePagebg.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.LatePage>img {
+	width: 5.96rem;
+	display: block;
+	margin: 0.8rem auto;
+}
+
+.LatePage .LateNav {
+	width: 100%;
+	height: 3.55rem;
+	position: relative;
+}
+
+.LatePage .LateNav .nth-of-type1 {
+	display: block;
+	position: absolute;
+	left: 0.77rem;
+	top: 0.07rem;
+	display: block;
+	width: 3.32rem;
+	background: url(../images/zhenrenxiu.png) no-repeat;
+	background-size: 100% 100%;
+	height: 3.1rem;
+     /*-webkit-transform: scaleX(1);
+   transform:scaleX(1);*/
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+.LatePage .LateNav .nth-of-type1.light {
+	left: 0.96rem;
+	top: 0.97rem;
+	
+	background: url(../images/zhenrenxiuxiao11.png) no-repeat;
+	background-size: 100% 100%;
+	width:1.68rem;
+    height: 1.18rem;
+
+}
+
+.LatePage .LateNav .nth-of-type2 {
+   /*-webkit-transform: scaleX(1);
+   transform:scaleX(1);*/
+	-webkit-transition: all 0.5s ease-in-out;
+	display: block;
+	position: absolute;
+	top: 1rem;
+	right: 1.15rem;
+	background: url(../images/3dxiao111.png) no-repeat;
+	background-size: 100% 100%;
+    width:1.58rem;
+    height: 0.91rem;
+}
+
+.LatePage .LateNav .nth-of-type2.light {
+	width: 3.32rem;
+	background: url(../images/3D111.png) no-repeat;
+	background-size: 100% 100%;
+	height: 3.1rem;
+	right: 0.74rem;
+	top: 0rem;
+}
+
+.LatePage .LateNav b.light2 {
+	-webkit-animation: pulsewzh 0.6s ease-in-out infinite normal;
+	-moz-animation: pulsewzh 0.6s ease-in-out infinite normal;
+	-o-animation: pulsewzh 0.6s ease-in-out infinite normal;
+	animation: pulsewzh 0.6s ease-in-out infinite normal;
+}
+
+@-webkit-keyframes pulsewzh {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.3,1.3,1.3);
+        transform: scale3d(1.3,1.3,1.3);
+    }
+
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+.LataPageList {
+	width: 100%;
+    position:relative;  
+	display: none;
+    top:1rem;
+	overflow: hidden;
+}
+
+.LataPageList a {
+	width: 3.75rem;
+	height: 2.74rem;
+	float: left;
+}
+
+.LataPageList a img {
+	width: 100%;
+	height: 100%;
+}
+.zhenrenxiugbox{
+    top:0;
+}

@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+header > a{
+	width: 2.85rem;
+	height: 0.24rem;
+	background: url(../images/production.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+body {
+	background: url(../images/SHOOTbg.png);
+	background-size: 100% auto;
+    overflow-x:visible;
+
+}
+.ChildPagesBox{
+	/*position:relative;*/
+	margin-top:0.86rem;
+	clear: both;
+	overflow: hidden;
+}
+.ChildPagesBox  img {
+    width: 100%;
+    height: auto;
+    width: auto\9; 
+    display: block;
+    -ms-interpolation-mode: bicubic; 
+}
+
+.ChildPagesBox div{
+	width: 7.5rem;
+	height: 4.69rem;
+	margin: auto auto;
+	position: relative;
+}
+.ChildPagesBox div a{
+	width: 2.59rem;
+	display: block;
+	position: absolute;
+	top:0;
+	left: 2.94rem;
+	height: 2.27rem;
+	background: url(../images/play.png) no-repeat;
+	background-size: 100% 100%;
+}
+#Child1iframe{
+	position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:url(../images/workbg.jpg) center top; background-size:cover;}
+.Guinness{ width: 1000px; height: auto; margin: 0 auto 0 auto;  overflow: hidden;}
+.Guinness .GO_1{ width:47px; height: 34px; background: url(../images/dot.png) no-repeat; margin: 20px auto 19px auto; cursor: pointer;}
+
+.Guinness .GU_top{ width: 1000px; height: auto; overflow: hidden;}
+.Guinness .GU_top img{ display: block; float: left; margin-right: 19px; margin-bottom: 20px;}
+
+.Guinness .GU_top div{ width:345px; height:224px; margin-right: 19px; margin-bottom: 20px; float:left;}
+.Guinness .GU_top div h3{ height:40px; line-height:40px; font-size:32px; font-family:"微软雅黑"; color:#5d5d5d; margin-bottom:6px;}
+.Guinness .GU_top div p{ line-height:26px; color:#5d5d5d; font-size:16px;font-family:"微软雅黑";}

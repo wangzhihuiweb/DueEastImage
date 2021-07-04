@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{background: url(../images/contact.jpg) center top; background-size:cover;}
+.Contact{ width: 100%; min-width: 1000px; display:block;}
+.Contact .Contact_img{ width: 602px; margin: 0 auto; clear: both;}
+.Contact .Contact_img h3{ margin-top:35px; margin-bottom:15px; height:70px; line-height:70px;letter-spacing:1px; font-size:70px;font-family:"微软雅黑"; color:#605f5c; text-align:center;}
+
+.Contact .Contact_img img{ width: 556px; display:block; margin:auto auto;}
+.Contact .Address{ padding-top:5px; text-align: center; padding-bottom: 10px;}
+.Contact .Address p{ height: 20px; line-height: 20px; color:#444444; font-family:"微软雅黑"; font-size:14px;}
+.box .Footer .Footer_Top .Blogroll div a{ margin-right: 40px;}

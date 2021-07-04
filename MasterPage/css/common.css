@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,input,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{display: block;}
+body{line-height: 1;}
+ol, ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after{content: '';content: none;}
+table{/*border-collapse: collapse;*/border-spacing: 0;}
+/* 兼容的清除浮动 */
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{zoom: 1;display: block;}
+
+@-webkit-keyframes sunrise{
+	0%{ background:#e896a8;}
+	17%{ background:#96d8e8;}
+	34%{ background:#e8c496;}
+	51%{ background:#96e89e;}
+	68%{ background:#969ce8;}
+	85%{ background:#d561df;}
+	100%{ background:#40a845;}	
+}
+@-o-keyframes sunrise{
+	0%{ background:#e896a8;}
+	17%{ background:#96d8e8;}
+	34%{ background:#e8c496;}
+	51%{ background:#96e89e;}
+	68%{ background:#969ce8;}
+	85%{ background:#d561df;}
+	100%{ background:#40a845;}	
+}
+@-moz-keyframes sunrise{
+	0%{ background:#e896a8;}
+	17%{ background:#96d8e8;}
+	34%{ background:#e8c496;}
+	51%{ background:#96e89e;}
+	68%{ background:#969ce8;}
+	85%{ background:#d561df;}
+	100%{ background:#40a845;}	
+}
+@-ms-keyframes sunrise{
+	0%{ background:#e896a8;}
+	17%{ background:#96d8e8;}
+	34%{ background:#e8c496;}
+	51%{ background:#96e89e;}
+	68%{ background:#969ce8;}
+	85%{ background:#d561df;}
+	100%{ background:#40a845;}	
+}
+@keyframes sunrise{
+	0%{ background:#e896a8;}
+	17%{ background:#96d8e8;}
+	34%{ background:#e8c496;}
+	51%{ background:#96e89e;}
+	68%{ background:#969ce8;}
+	85%{ background:#d561df;}
+	100%{ background:#40a845;}	
+}
+/*头部开始*/
+.Header{ height:32px; width:100%; background: #000; min-width: 1000px; overflow: hidden;}
+.Header .Header_bg{ height:18px; width: 100%;  margin-top: 14px;}
+/*头部结束*/
+
+/*主体开始*/
+body{background: url(../images/homebg.jpg) center top fixed; background-size:cover;}
+.box{ width:100%; height: auto;min-width: 1000px;}
+.box .Nav{ width: 1000px; margin: 0 auto; height: 128px; background:url(../images/navbg.png); display:block;}
+.box .Nav .logo{ width: 264px; height: 37px; display: block; margin-top: 31px; margin-left: 32px; text-decoration: none; background:url(../images/logo.png) no-repeat; float: left;}
+.box .Nav .Nav_b{ height:128px; position: relative; float: right;}
+.box .Nav .Nav_b .text{height: 128px; position: relative; z-index:2;}
+.box .Nav .Nav_b .text a{ width:94px; height: 88px; display: block; padding-top: 40px; position: relative;float: left; color: #FFF; text-align: center; margin: 0 15px; text-decoration: none; font-size: 14px; font-family:"微软雅黑";}
+.box .Nav .Nav_b .text a.light i{ width: 65px; height: 3px; background:#ff723b; display: block; position: absolute; left: 15px; bottom: 15px;}
+
+.box .Nav .Nav_b .sign{ position: absolute; height: 128px; top:0; display:block;}
+.box .Nav .Nav_b .sign div{ width: 94px; height: 128px; display: block; background: #2e2d2c; position: relative; margin: 0 15px;filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity: 0.3;opacity: 0.3;}
+
+/*主体结束*/
+
+/*底部开始*/
+.box .Footer{ width: 1000px; margin:0px auto 0 auto; display:block;}
+.box .Footer .copyright{ height: 30px; background:#000; font-size: 14px; color:#777777; font-family:"宋体"; text-align: center; padding-top: 6px;}
+.box .Footer .copyright span{ font-weight: bold; color:#8f8f8f; font-family:"微软雅黑";}
+.box .Footer .copyright b{ color:#737373;font-family:"微软雅黑";}
+.box .Footer .Footer_Top{ width: 1000px; height: 128px; background:#212121; padding-top: 12px;}
+.box .Footer .Footer_Top .foor{ height:124px; padding-left: 26px;}
+.box .Footer .Footer_Top .foor h3{ clear: both;/*height: 36px; line-height: 36px;*/ font-size: 16px;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;color: #cacaca;}
+.box .Footer .Footer_Top .foor div{ clear: both; margin-top:6px; overflow: hidden; position: relative;}
+.box .Footer .Footer_Top .foor div img{  display: block;text-decoration: none;float: left; display: block; position: relative; margin-right: 65px;}
+.box .Footer .Footer_Top .foor div a{    width: 28px;
+	height: 23px;
+	background:url(../images/weibo.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 106px;
+	display: block;
+	top: 10px;}
+.box .Footer .Footer_Top .Connect{ margin-right: 35px;}
+.box .Footer .Footer_Top .Blogroll{ float: left;}
+.box .Footer .Footer_Top .Contact_Us{ float: right; margin-right: 33px;}
+.box .Footer .Footer_Top .Contact_Us div p{ clear: both; margin-top:6px; line-height:14px; color: #757575; font-size: 12px; font-family:"微软雅黑";}
+
+/*底部结束*/
+

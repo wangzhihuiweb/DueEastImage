@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body{background: url(../images/aboutbg.jpg) center top; background-size:cover;}
+.box .Footer .Footer_Top .Blogroll div a{ margin-right: 40px;}
+.About{ width: 1000px; margin: 0 auto; overflow: hidden; display:block;}
+.About_L{ width:486px; height:501px; float: left; background: url(../images/about.png) no-repeat;}
+.About_R{ width: 460px; padding-top: 115px; float: left; padding-left: 36px;}
+.About_R img{ margin-bottom: 24px; display: block;}
+.About_R p{ color:#605f5c; font-family:"微软雅黑";letter-spacing:1px;font-size: 14px; line-height: 18px; margin-top: 20px;}
+.About_R h3{ height:70px; line-height::70px; font-size:70px; font-family:"微软雅黑"; color:#5c5b59}
+.AboutHead{ width: 1000px; margin: 18px auto 0 auto; overflow: hidden; display: block;}
+.AboutHead img{ width:1000px; display: block; float: left;}
+
+.Logos{ width: 1000px; margin: 15px auto 15px auto; overflow: hidden; display: block;}
+.Logos div{ float: left;width: 125px; height: 70px; display:table;overflow:hidden}
+.Logos div span{ display: table-cell; vertical-align: middle; text-align: center;}
+.Logos div img{ display: inline-block;}

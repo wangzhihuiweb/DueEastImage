@@ -1,0 +1,16 @@
+videoPic@charset "utf-8";
+/* CSS Document */
+body{background: url(../images/workqbg.jpg) center top; background-size:cover;}
+.Work_tit{ width: 1000px; margin: 0 auto 0 auto; height: 73px; display: block;}
+.Work_tit h3{ color:#707070; font-size: 24px; font-family:"微软雅黑"; float: left; height: 73px; line-height: 73px;}
+.Work_tit span{ width: 47px; height: 73px; display: block; float: left; background: url(../images/dot.png) no-repeat center center; margin-left: 476px; cursor:pointer;}
+.Video{ width:1000px; margin: 0 auto 0 auto;width:1000px; height: 563px;display: block; overflow:hidden; position:relative; background: #000000; }
+.Video #myVideo1{width:1000px;height: 563px; cursor:pointer;z-index: 100; color: #FFFFFF; font-size: 24px;}
+.Video #myVideo1 a{ color: #FFFFFF;}
+.videoPic{ position:absolute; top:40%; left:45%; cursor:pointer; display: none;}
+.introduce{ width: 1000px; margin: 0 auto 0 auto; padding-top: 25px; padding-bottom: 25px; overflow: hidden; display: block;}
+.introduce h3{ height: 24px; line-height: 24px; color: #2d2c2a; font-size: 18px;font-family:"微软雅黑"; margin-bottom: 10px;}
+.introduce p{ line-height: 22px; clear: both;}
+.introduce p b{ font-weight: normal; float: left; font-size: 16px; color:#54524f;font-family:"微软雅黑";}
+.introduce p span{ color:#54524f; font-size: 16px; float: left;font-family:"微软雅黑";}
+.Video #myVideo1>img{width:1000px; height:563px;}

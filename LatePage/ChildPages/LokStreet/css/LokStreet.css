@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:url(../images/workbg.jpg) center top; background-size:cover;}
+.LokStreet{ width: 1000px; height: auto; margin: 0 auto 0 auto;  overflow: hidden;}
+.LokStreet .GO_1{ width:47px; height: 34px; background: url(../images/dot.png) no-repeat; margin: 20px auto 19px auto; cursor: pointer;}
+
+.LokStreet .Lo_top{ width: 1000px; height: auto; overflow: hidden;}
+.LokStreet .Lo_top .L{float: left; 338px}
+.LokStreet .Lo_top  img{ display: block;}
+.LokStreet .Lo_top .L div{ width:336px; height:282px; margin-bottom: 19px;}
+.LokStreet .Lo_top .L div h3{ height:40px; line-height:40px; font-size:32px; font-family:"微软雅黑"; color:#5d5d5d; margin-bottom:3px;}
+.LokStreet .Lo_top .L div p{ line-height:25px; width:341px; color:#5d5d5d; font-size:16px;font-family:"微软雅黑";}
+
+
+.LokStreet .Lo_top .L img{ display:block; margin-bottom: 19px;}
+.LokStreet .Lo_top .R{float:right; width: 643px;}
+.LokStreet .Lo_top .R img{ display:block; margin-bottom: 19px; float: left;}

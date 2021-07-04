@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+.banner{ /*width: 1000px; background: url(../images/banner.png) no-repeat center center;*/ height: 500px; margin: 0 auto; width:1072px; position:relative}
+.core{ width:1072px; margin:0 auto;}
+.Rhesis{ width: 1000px; margin: 21px auto 0 auto; display:block;}
+.Rhesis img{ margin:0 auto; display: block;}
+.Rhesis h3{ text-align: center; height: 60px; line-height: 60px;letter-spacing:3px;font-size:34px; color:#535353;font-family:"微软雅黑";}
+.Rhesis p{ font-size: 14px; color:#535353; font-family:"微软雅黑"; line-height: 22px; text-align: center;}
+.Sliding{ width: 1000px; height: 196px; margin: 44px auto 0 auto; position: relative;display:block;}
+.Sliding .wrap{ width: 1000px; height: 196px; overflow: hidden; position: relative;}
+/*.Sliding .Pic ul li{ height: 196px; overflow: hidden; float: left; position: absolute; top: 0; left: 0; width: 604px;}*/
+.Sliding .wrap .Pic{ width: 432px; cursor: pointer;}
+.Sliding .wrap .Pic1{  position:absolute;left: 0px; z-index:1; top:0;}
+.Sliding .wrap .Pic2{  position: absolute;left: 66px; z-index:2;top:0; }
+.Sliding .wrap .Pic3{  position: absolute;left: 132px; z-index:3;top:0;}
+.Sliding .wrap .Pic4{  position: absolute;left: 198px; z-index:4;top:0;}
+.Sliding .wrap .Pic5{  position: absolute;left: 264px; z-index:5;top:0;}
+.Sliding .wrap .Pic6{  position: absolute;left: 330px; z-index:6;top:0;}
+.Sliding .wrap .Pic7{  position: absolute;left: 736px; z-index:7;top:0;}
+.Sliding .wrap .Pic8{  position: absolute;left: 802px; z-index:8;top:0;}
+.Sliding .wrap .Pic9{  position: absolute;left: 868px; z-index:9;top:0;}
+.Sliding .wrap .Pic10{  position: absolute;left: 934px; z-index:10;top:0;}
+.Sliding .wrap .Pic img{float: left; width: 432px;}
+
+.Sliding .Button{ position: absolute; width: 36px; height: 79px; left: -55px; top: 50%; margin-top: -39px; cursor: pointer;}
+.Sliding .Left{ background: url(../images/left.png) no-repeat;}
+.Sliding .Right{ background:url(../images/right.png) no-repeat; left:inherit;right: -55px;}
+

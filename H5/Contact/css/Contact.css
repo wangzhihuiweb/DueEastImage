@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.Contact{
+	margin-top:1.2rem;
+        margin-bottom: 0.8rem;
+}
+.Contact img {
+    width: 100%;
+    height: auto;
+    width: auto\9; 
+    display: block;
+    -ms-interpolation-mode: bicubic; 
+}
+
+header > a{
+	width: 1.48rem;
+	height: 0.24rem;
+	background: url(../images/CONTACT.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+body {
+	background: url(../images/contactbg.png);
+	background-size: 100% auto;
+    overflow-x:visible;
+
+}
+
+@media screen and (min-height:724px) {
+    .copyright {
+        z-index: 2;
+        background: #000;
+        height: 0.65rem;
+        text-align: center;
+        display: block;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+
+    footer {
+        z-index: 987654322;
+        background: #212121;
+        text-align: center;
+        overflow: hidden;
+        padding-bottom: 0.3rem;
+        position: fixed;
+        width: 100%;
+        bottom:0.65rem;
+    }
+}
+

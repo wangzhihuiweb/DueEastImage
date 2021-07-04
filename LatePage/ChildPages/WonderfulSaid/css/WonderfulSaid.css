@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:url(../images/workbg.jpg) center top; background-size:cover;}
+.WonderfulSaid{ width: 1000px; height: auto; margin: 0 auto 0 auto;  overflow: hidden;}
+.WonderfulSaid .GO_1{ width:47px; height: 34px; background: url(../images/dot.png) no-repeat; margin: 20px auto 19px auto; cursor: pointer;}
+
+.WonderfulSaid .Wo_top{ width: 1000px; height: auto; overflow: hidden;}
+.WonderfulSaid .Wo_top .L{float: left; width:341px;}
+.WonderfulSaid .Wo_top .L div{ width:341px; height:233px; margin-right: 19px; float:left;}
+.WonderfulSaid .Wo_top .L div h3{ height:40px; line-height:40px; font-size:32px; font-family:"微软雅黑"; color:#5d5d5d; margin-bottom:6px;}
+.WonderfulSaid .Wo_top .L div p{ line-height:26px; color:#5d5d5d; font-size:16px;font-family:"微软雅黑";}
+
+
+
+.WonderfulSaid .Wo_top .L img{ display:block; margin-bottom: 27px;}
+.WonderfulSaid .Wo_top .R{float:right; width: 635px;}
+.WonderfulSaid .Wo_top .R img{ display:block; margin-bottom: 20px; float: left;}
+.WonderfulSaid .Wo_top .R div{ width:307px; height:319px; display:inline-block; position:relative; margin-right:23px; float:left}
+.WonderfulSaid .Wo_top .R div video{width:307px; height:319px;}
+
+.WonderfulSaid .Wo_top .R div b{ position:absolute; cursor:pointer; z-index:2; width:91px; height:91px; left:50%; top:50%; margin-left:-45.5px; margin-top:-45.5px; background:url(../images/palyan.png) no-repeat;}
